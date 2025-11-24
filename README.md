@@ -5,4 +5,4 @@ O objetivo é compreender como criar uma função que interaja com o banco de da
 
 ## A função implementa operações básicas como:
 - Criar tarefas
-- Listar tarefas
+- Listar tarefas
