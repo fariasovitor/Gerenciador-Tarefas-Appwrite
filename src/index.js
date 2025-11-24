@@ -39,7 +39,9 @@ export default async ({ req, res, log, error }) => {
         [Query.orderDesc("$createdAt")]
       );
 
-      log(`Total de documentos listados: ${resultado.total}`);
+      log("Resultado:");
+      log(JSON.stringify(resultado, null, 2)); // Agora aparece no painel
+    
       return res.json(resultado);
     }
 
