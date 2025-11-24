@@ -40,7 +40,7 @@ export default async ({ req, res, log, error }) => {
       );
 
       log("Resultado:");
-      log(JSON.stringify(resultado, null, 2)); // Agora aparece no painel
+      log(JSON.stringify(resultado, null, 2));
     
       return res.json(resultado);
     }
