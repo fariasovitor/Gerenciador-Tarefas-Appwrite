@@ -1,0 +1,10 @@
+{
+  "functions": [
+    {
+      "$id": "funcao_gerenciador_tarefas",
+      "name": "Funcao Gerenciador de Tarefas",
+      "runtime": "node-22.0",
+      "entrypoint": "src/index.js"
+    }
+  ]
+}
